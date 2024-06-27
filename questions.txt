@@ -1,0 +1,11 @@
+decorator
+Decorators are a design pattern in JavaScript that enables the modification of an object’s behavior by adding new functionality to it,
+without altering its original code.
+EX:Exp. Imports for Decorators: import {Component} from ‘@angular/core’;
+
+annotation
+Annotations are used for creating an attribute annotations that stores array.
+EX:Imports for Annotations: import {ComponentAnnotation as Component} from ‘@angular/core’;
+
+SDLC
+Requirements gathering and analysis

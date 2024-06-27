@@ -1,0 +1,156 @@
+Hi, I'm [Your Name]. I've worked as a Java Full Stack Developer for over a year (and had three months of training in SAP ABAP).  (I'm good at developing full-stack web applications using Angular, HTML, CSS, and Java 8)
+My background in Java development empowers me to implement backend functionalities seamlessly.
+while my proficiency in Angular, HTML,CSS,mysql enables me to design responsive user interfaces.
+I am excited about the opportunity to contribute my expertise and continue growing professionally within the organization.
+
+
+
+service booking management:
+
+like some companies wants to optimize their Service Booking process for a variety of the products.
+They want a unified platform for maintaining their service booking related activities.
+These Microservices performs,
+user management :Register,Updating and Listing users details.
+Product Management: Adding ,Updating ,Listing and Deleting Product.
+Service Booking Management: Creating Service Booking or Service Request ,Status of booking needs to be changed and Status
+would be pending, assigned, resolved.
+Created APIs with STS (Spring Boot) for seamless product management (add, update, list, delete). 
+Utilized MySQL for CRUD operations and Angular, HTML, CSS, and Typescript for the user-friendly frontend.
+
+
+Data Tables:
+
+I have created data-rich tables that not only present information in a visually appealing manner but also offer interactivity,
+sorting, filtering, and seamless data manipulation.
+
+components used,
+UI Components
+Data Display Components
+Layout Components
+Form Components
+Directive Components
+
+Feature Set,
+Data Filtering
+Data Export
+Keyboard Navigations
+Freezing Rows
+Data Manipulation
+Tree Data
+
+BMR calculator:
+
+This program is designed to help users calculate their Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE)
+based on their basic information such as weight, height, age, and activity level.
+It also helps users set their daily calorie goals based on their weight goals, whether they want to lose weight, maintain weight, or gain weight.
+
+Developed application using Java, Spring Boot (STS), Angular, and MySQL. Integrated Angular for 
+frontend. Explored and resolved errors, actively collaborated in every phase project
+
+
+fe - controller -endpoint - service - data -repo 
+
+
+questions:
+
+1.Spring boot
+Spring Boot is built on the top of Spring framework.It is used to create stand alone spring based application
+with very minimal configuration and there is no need of external servers to run the application.because it has Tomcat and Jetty.
+
+2.microservices
+Microservice is a small, loosely coupled distributed service. Each microservice is designed to perform a specific function and can be developed,
+deployed, and scaled independently.It allows you to take a large application and break it into easily manageable small components.
+
+3.oops
+--->Object:
+Any entity that has state and behavior is known as an object.An Object can be defined as an instance of a class.
+An object contains an address and takes up some space in memory.
+ex:A dog is an object because it has states like color, name, breed, etc. as well as behaviors like wagging the tail, barking, eating, etc.
+
+--->Class:
+A class is a user-defined blueprint from which objects are created. It represents the set of properties that are common to all objects of one type.
+Using classes,we can create multiple objects with the same behavior instead of writing their code multiple times.
+
+code ex of class and object:
+public class GFG {
+    
+    static String Employee_name;
+    static float Employee_salary;
+
+    static void set(String n, float p) {
+        Employee_name  = n;
+        Employee_salary  = p;
+    }
+
+    static void get() {
+        System.out.println("Employee name is: " +Employee_name );
+        System.out.println("Employee CTC is: " + Employee_salary);
+    }
+
+    public static void main(String args[]) {
+        GFG.set("Rathod Avinash", 10000.0f);
+        GFG.get();
+    }
+}
+
+--->abstraction:
+In data Abstraction only the essential details are displayed to the user. The non-essential units are not displayed to the user.
+Ex: A car is viewed as a car rather than its individual components.
+code ex:
+//abstract class
+abstract class GFG{
+  //abstract methods declaration
+  abstract void add();
+  abstract void mul();
+  abstract void div();
+}
+
+--->encapsulation:
+Binding code and data together into a single unit
+In encapsulation, the data in a class is hidden from other classes.
+For example: a capsule, it is wrapped with different medicines.
+code ex:
+//Encapsulation using private modifier 
+
+//Employee class contains private data called employee id and employee name
+class Employee {
+    private int empid;
+      private String ename;
+}
+
+
+--->inheritance:
+It is the mechanism in Java by which one class is allowed to inherit the features (fields and methods) of another class.
+ We are achieving inheritance by using extends keyword.
+code ex:
+//base class or parent class or super class
+class A{
+  //parent class methods
+  void method1(){}
+  void method2(){}
+}
+
+//derived class or child class or base class
+class B extends A{  //Inherits parent class methods
+  //child class methods
+  void method3(){}
+  void method4(){}
+}
+
+--->Polymorphism:
+differentiate between entities with the same name efficiently.The ability to appear in many forms is called polymorphism.
+(If one task is performed in different ways)
+code ex:
+sleep(1000) //millis
+
+sleep(1000,2000) //millis,nanos
+
+2 types: 
+
+Overloading
+Overriding 
+
+
+
+
+
